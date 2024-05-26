@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+}
+
+.beach-scene {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.sky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, #87CEEB 0%, #B0E0E6 100%);
+}
+
+.sun {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(255, 215, 0, 0.7);
+}
+
+.sea {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to bottom, #4682B4 0%, #5F9EA0 100%);
+}
+
+.sand {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to bottom, #FFDAB9 0%, #F4A460 100%);
+}
+
+.palm-tree {
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    width: 0;
+    height: 0;
+}
+
+.trunk {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 100px;
+    background-color: #8B4513;
+    transform: translateX(-50%) rotate(10deg);
+    border-radius: 10px;
+}
+
+.leaves {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    width: 80px;
+    height: 20px;
+    background-color: #228B22;
+    transform-origin: bottom left;
+    border-radius: 0 50% 50% 0;
+}
+
+.leaf1 {
+    transform: translateX(-50%) rotate(30deg);
+}
+
+.leaf2 {
+    transform: translateX(-50%) rotate(60deg);
+}
+
+.leaf3 {
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.leaf4 {
+    transform: translateX(-50%) rotate(120deg);
+}
+
+.leaf5 {
+    transform: translateX(-50%) rotate(150deg);
+}
